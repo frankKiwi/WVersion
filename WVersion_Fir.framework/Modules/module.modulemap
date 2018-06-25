@@ -1,0 +1,6 @@
+framework module WVersion_Fir {
+  umbrella header "WVersion_Fir.h"
+
+  export *
+  module * { export * }
+}
