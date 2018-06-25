@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "WVersionDeal"
   s.version      = "0.0.1"
-  s.summary      = "A short description of WVersionDeal."
+  s.summary      = "Frank版本管理."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,6 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "http://EXAMPLE/WVersionDeal"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
