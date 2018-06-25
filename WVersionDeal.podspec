@@ -21,8 +21,10 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/frankKiwi/WVersion.git", :tag => "0.0.1" }
 
 
-  s.source_files  = "WVersion_Fir/*.{Framework}"
-  s.exclude_files = "WVersion_Fir/"
+  s.source_files = 'WVersion/WVersion_Fir.framework/Headers/*.{h}'
+  s.vendored_frameworks = 'WVersion/WVersion_Fir.framework'
+  s.public_header_files = 'WVersion/WVersion_Fir.framework/Headers/WVersion_Fir.h'
+  s.frameworks = "UIKit", "Foundation"
 
 
   s.requires_arc = true
