@@ -8,12 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-//! Project version number for WVersion_Fir.
-FOUNDATION_EXPORT double WVersion_FirVersionNumber;
-
-//! Project version string for WVersion_Fir.
-FOUNDATION_EXPORT const unsigned char WVersion_FirVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <WVersion_Fir/PublicHeader.h>
+#import "UIButton+Kiwi.h"
+#import "UICollectionView+SetIPhoneX.h"
+#import "UIImageView+Kiwi.h"
+#import "UILabel+Kiwi.h"
+#import "UITabBar+Kiwi.h"
+#import "UIView+Kiwi.h"
+#import "UITableView+Header.h"
+#import "UITextField+Kiwi.h"
+#import "UITextView+TextLengthOrPlaceholder.h"
+#import "LEEAlertHelper.h"
+#import "TableViewAnimationKitHeaders.h"
+#import "TableViewAnimationKit.h"
+#import "UITableView+XSAnimationKit.h"
+#import "TableViewAnimationKitConfig.h"
 #import "VersionDeal.h"
 
