@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "fanrenFRank" => "1778907544@qq.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/frankKiwi/WVersion.git"}
+  s.source       = { :git => "https://github.com/frankKiwi/WVersion.git", :tag => "1.0.0"}
 
 
   s.source_files = 'WVersion/WVersion_Fir.framework/Headers/*.{h}'
