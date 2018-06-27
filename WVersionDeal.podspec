@@ -11,14 +11,14 @@ Pod::Spec.new do |s|
 
 
   s.name         = "WVersionDeal"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "版本管理UI."
 
   s.homepage     = "https://github.com/frankKiwi/WVersion"
   s.license      = "MIT"
   s.author             = { "fanrenFRank" => "1778907544@qq.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/frankKiwi/WVersion.git", :tag => "0.0.5" }
+  s.source       = { :git => "https://github.com/frankKiwi/WVersion.git"}
 
 
   s.source_files = 'WVersion/WVersion_Fir.framework/Headers/*.{h}'
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+#   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
 end
