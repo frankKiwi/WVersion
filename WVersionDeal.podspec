@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "WVersionDeal"
-  s.version      = "0.0.6"
+  s.version      = "1.0.0"
   s.summary      = "版本管理UI."
 
   s.homepage     = "https://github.com/frankKiwi/WVersion"
