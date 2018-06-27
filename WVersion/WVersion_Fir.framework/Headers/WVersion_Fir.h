@@ -15,5 +15,4 @@ FOUNDATION_EXPORT double WVersion_FirVersionNumber;
 FOUNDATION_EXPORT const unsigned char WVersion_FirVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <WVersion_Fir/PublicHeader.h>
-#import "VersionDeal.h"
-
+#import <WVersion_Fir/VersionDeal.h>
