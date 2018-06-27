@@ -11,14 +11,14 @@ Pod::Spec.new do |s|
 
 
   s.name         = "WVersionDeal"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "版本管理UI."
 
   s.homepage     = "https://github.com/frankKiwi/WVersion"
   s.license      = "MIT"
   s.author             = { "fanrenFRank" => "1778907544@qq.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/frankKiwi/WVersion.git", :tag => "0.0.4" }
+  s.source       = { :git => "https://github.com/frankKiwi/WVersion.git", :tag => "0.0.5" }
 
 
   s.source_files = 'WVersion/WVersion_Fir.framework/Headers/*.{h}'
